@@ -7,12 +7,12 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-26T11:30:05.955034-04:00"
+    created: "2023-06-26T11:59:03.007494-04:00"
     description: A Helm chart for Kubernetes
-    digest: 1e250e43c4340e6533be3b3f0493c7df44ef24156a6ef18f8756946d484c328e
+    digest: 459996f766b63ded6fe0083b617c24652b6183b58b641367c40bccd0edb98daa
     name: sds-nginx-svc-example
     type: application
     urls:
     - sds-nginx-svc-example-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-26T11:30:05.953648-04:00"
+generated: "2023-06-26T11:59:03.006577-04:00"
