@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  sds-nginx-svc-example:
+  - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: My New Nginx SDS Service
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-26T11:00:10.374776-04:00"
+    description: A Helm chart for Kubernetes
+    digest: fa9f00f07419efdc821ffac8383c99e129fccbc9dc915aedca64fbe97415b11e
+    name: sds-nginx-svc-example
+    type: application
+    urls:
+    - sds-nginx-svc-example-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-06-26T11:00:10.374341-04:00"
