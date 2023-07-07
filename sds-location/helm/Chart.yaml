@@ -24,6 +24,6 @@ version: 0.1.0
 appVersion: "1.16.0"
 
 annotations:
-  intersystems/sds-title: My New Nginx SDS Service 2ß
+  intersystems/sds-title: My New Nginx SDS Service 2
   intersystems/sds-organization: InterSystems Corporation
   intersystems/sds-category: custom
