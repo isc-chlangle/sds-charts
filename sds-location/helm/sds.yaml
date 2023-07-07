@@ -28,7 +28,9 @@ sections:
     type: string 
     label: IRIS UserName 
     help: Username of the service to connect to
+    value: SuperUser
   - field: irisPassword 
     type: password
     label: IRIS Password 
     help: Password of the service to connect to 
+    value: SYS
