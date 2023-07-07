@@ -1,1 +1,34 @@
 apiVersion: v1
+secrets:
+- field: requiredSecrets.intersystemsContainerRegistrySecret
+  type: image-pull-secret
+  subType: containers.intersystems.com
+  reason: These are the credentials to authenticate with containers.intersystems.com
+endpointDependencies:
+ - dependency: jdbc
+   endpointType: intersystems-iris-jdbc
+   reason: This service will store its information in an InterSystems IRIS database.
+   chartField: jdbcConnectionString
+   optional: false
+compute:
+  computeSpecs:
+  - name: main
+    label: Location Node Spec.
+    categoryFilter: CO,MO,GP
+    minCPU: 1
+    minRAM: 1
+    nodeSelectorField: compute.main.nodeTypeSelector
+    cpuRequestField: compute.main.cpu
+    memoryRequestField: compute.main.memory
+    help: Specifies how many cores and how much memory the dedicated node will have 
+sections:
+- label: IRIS Login Information 
+  fields:
+  - field: irisUserName
+    type: string 
+    label: IRIS UserName 
+    help: Username of the service to connect to
+  - field: irisPassword 
+    type: password
+    label: IRIS Password 
+    help: Password of the service to connect to 
