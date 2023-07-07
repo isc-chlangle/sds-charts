@@ -4,12 +4,12 @@ entries:
   - annotations:
       intersystems/sds-category: custom
       intersystems/sds-organization: InterSystems Corporation
-      intersystems/sds-title: My New Nginx SDS Service 2
+      intersystems/sds-title: Location Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-07T13:17:17.430379-04:00"
+    created: "2023-07-07T13:27:01.13974-04:00"
     description: A Helm chart for Kubernetes
-    digest: 140d817ad1c6e6e809fa53766062306fbbe2efd763d405ce87ea42ce27f74443
+    digest: 24c2db1a156207f72d7454438938f96a496091a6f0a5a5cd365417c8326cb5a8
     name: sds-location
     type: application
     urls:
@@ -22,7 +22,7 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-07T13:17:17.431052-04:00"
+    created: "2023-07-07T13:27:01.140417-04:00"
     description: A Helm chart for Kubernetes
     digest: 7559148de7f84eab147536bef0fadcd44290411b4df4dc551bdfa98ab6dd5d41
     name: sds-nginx-svc-example
@@ -30,4 +30,4 @@ entries:
     urls:
     - https://isc-chlangle.github.io/sds-charts/sds-nginx-svc-example-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-07T13:17:17.429917-04:00"
+generated: "2023-07-07T13:27:01.139182-04:00"
