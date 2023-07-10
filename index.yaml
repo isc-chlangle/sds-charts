@@ -7,13 +7,28 @@ entries:
       intersystems/sds-title: Location Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-10T17:45:35.453536-04:00"
+    created: "2023-07-10T17:50:17.695219-04:00"
     description: A Helm chart for Kubernetes
     digest: 0f8e0de7cdefda908a5f4db86b27b59872871f53e17f90fdc1f58e513fdf51da
     name: sds-location
     type: application
     urls:
     - sds-location-0.1.0.tgz
+    version: 0.1.0
+  sds-location-2:
+  - annotations:
+      intersystems/sds-category: custom
+      intersystems/sds-organization: InterSystems Corporation
+      intersystems/sds-title: Location Service 2
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-07-10T17:50:17.695626-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 5335b8632175b3562cda3713dfc34b6a31c0d3af0048fd9c547350f4015c0d56
+    name: sds-location-2
+    type: application
+    urls:
+    - sds-location-2-0.1.0.tgz
     version: 0.1.0
   sds-nginx-svc-example:
   - annotations:
@@ -22,7 +37,7 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-10T17:45:35.453797-04:00"
+    created: "2023-07-10T17:50:17.695918-04:00"
     description: A Helm chart for Kubernetes
     digest: 7559148de7f84eab147536bef0fadcd44290411b4df4dc551bdfa98ab6dd5d41
     name: sds-nginx-svc-example
@@ -30,4 +45,4 @@ entries:
     urls:
     - sds-nginx-svc-example-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-10T17:45:35.453103-04:00"
+generated: "2023-07-10T17:50:17.694837-04:00"
