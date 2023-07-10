@@ -83,4 +83,4 @@ tolerations: []
 affinity: {}
 
 requiredSecrets:
-  dockerInternalRegistrySecret: ""
+  internalRegistrySecret: ""
