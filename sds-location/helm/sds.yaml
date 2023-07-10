@@ -1,8 +1,8 @@
 apiVersion: v1
 secrets:
-- field: requiredSecrets.intersystemsContainerRegistrySecret
+- field: requiredSecrets.dockerInternalRegistrySecret
   type: image-pull-secret
-  subType: containers.intersystems.com
+  subType: docker.iscinternal.com
   reason: These are the credentials to authenticate with containers.intersystems.com
 endpointDependencies:
  - dependency: jdbc
