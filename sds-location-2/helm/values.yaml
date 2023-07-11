@@ -5,13 +5,12 @@
 replicaCount: 1
 
 image:
-  registry: docker.iscinternal.com/sc-docker/sc-cloud-service
-  repository: sds-location
-  pullPolicy: Always
+  repository: docker.iscinternal.com/sc-docker/sc-cloud-service/sds-location
+  pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "latest"
 
-# imagePullSecrets: []
+imagePullSecrets: []
 # nameOverride: ""
 # fullnameOverride: ""
 
