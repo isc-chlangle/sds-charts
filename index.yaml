@@ -7,13 +7,13 @@ entries:
       intersystems/sds-title: Location Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-17T11:27:53.26591-04:00"
+    created: "2023-07-17T12:13:27.376562-04:00"
     description: A Helm chart for Kubernetes
-    digest: 3189b14d51008efd3680f2f6d5bc0eff01f5c7c0a66aa22c06aad4974c7f6ff0
+    digest: 92c26c0fabde3c55b019025d0ffabee91b699a7b6c4eb28f004038a0d4c2e553
     name: sds-location
     type: application
     urls:
-    - isc-chlangle.github.io/sds-charts/sds-location-0.1.0.tgz
+    - https://isc-chlangle.github.io/sds-charts/sds-location-0.1.0.tgz
     version: 0.1.0
   sds-nginx-svc-example:
   - annotations:
@@ -22,12 +22,12 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-17T11:27:53.266462-04:00"
+    created: "2023-07-17T12:13:27.37689-04:00"
     description: A Helm chart for Kubernetes
     digest: 7559148de7f84eab147536bef0fadcd44290411b4df4dc551bdfa98ab6dd5d41
     name: sds-nginx-svc-example
     type: application
     urls:
-    - isc-chlangle.github.io/sds-charts/sds-nginx-svc-example-0.1.0.tgz
+    - https://isc-chlangle.github.io/sds-charts/sds-nginx-svc-example-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-17T11:27:53.265376-04:00"
+generated: "2023-07-17T12:13:27.375988-04:00"
