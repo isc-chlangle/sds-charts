@@ -4,6 +4,8 @@
 
 replicaCount: 1
 
+jdbcConnectionString: jdbc:IRIS://127.0.0.1:1972/USER
+
 image:
   repository: docker.iscinternal.com/sc-docker/sc-cloud-service/sds-location
   pullPolicy: Always
@@ -84,3 +86,7 @@ affinity: {}
 
 requiredSecrets:
   internalRegistrySecret: ""
+
+irisUserName: ""
+irisPassword: "" 
+

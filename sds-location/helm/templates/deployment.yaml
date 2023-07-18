@@ -59,3 +59,11 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
+      env:
+        - name: BUSYBOX_IRIS_JDBC_URL
+          value: {{ .Values.jdbcConnectionString }}
+        - name: IRIS_USERNAME
+          value: {{ .Values.irisUserName}}
+        - name: IRIS_PASSWORD
+          value: {{ .Values.irisPassword }}
+
