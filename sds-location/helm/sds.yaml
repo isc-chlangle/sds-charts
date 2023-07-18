@@ -1,22 +1,22 @@
-apiVersion: v1
-secrets:
-- field: requiredSecrets.internalRegistrySecret
-  type: image-pull-secret
-  reason: These are the credentials to authenticate with docker.iscinternal.com
-endpointDependencies:
-- dependency: jdbc
-  endpointType: intersystems-iris-jdbc
-  reason: This service will store its information in an InterSystems IRIS database.
-  chartField: jdbcConnectionString
-  optional: false
-sections:
-- label: IRIS Login Information 
-  fields:
-  - field: irisUserName
-    type: string 
-    label: IRIS UserName 
-    help: Username of the service to connect to
-  - field: irisPassword 
-    type: password
-    label: IRIS Password 
-    help: Password of the service to connect to 
+# apiVersion: v1
+# secrets:
+# - field: requiredSecrets.internalRegistrySecret
+#   type: image-pull-secret
+#   reason: These are the credentials to authenticate with docker.iscinternal.com
+# endpointDependencies:
+# - dependency: jdbc
+#   endpointType: intersystems-iris-jdbc
+#   reason: This service will store its information in an InterSystems IRIS database.
+#   chartField: jdbcConnectionString
+#   optional: false
+# sections:
+# - label: IRIS Login Information 
+#   fields:
+#   - field: irisUserName
+#     type: string 
+#     label: IRIS UserName 
+#     help: Username of the service to connect to
+#   - field: irisPassword 
+#     type: password
+#     label: IRIS Password 
+#     help: Password of the service to connect to 
