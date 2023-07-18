@@ -87,6 +87,3 @@ affinity: {}
 requiredSecrets:
   internalRegistrySecret: ""
 
-irisUserName: ""
-irisPassword: "" 
-
