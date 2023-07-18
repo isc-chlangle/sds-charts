@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJkb2NrZXIuaXNjaW50ZXJuYWwuY29tIjp7InVzZXJuYW1lIjoiX2J1aWxkX3NjIiwicGFzc3dvcmQiOiI2Z1FMUVRkUUZCVm0iLCJhdXRoIjoiWDJKMWFXeGtYM05qT2pablVVeFJWR1JSUmtKV2JRPT0ifX19
+kind: Secret
+metadata:
+  annotations:
+    secret-type: image-pull-secret
+  creationTimestamp: "2023-07-18T15:11:13Z"
+  name: mysecret
+  namespace: sds-cp
+  resourceVersion: "163677"
+  uid: faaa9e6c-60a5-49c0-aad2-46f3ec34ba85
+type: kubernetes.io/dockerconfigjson
