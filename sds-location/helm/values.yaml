@@ -10,8 +10,8 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
-# imagePullSecrets: [{ name: mysecret }]
-imagePullSecrets: []
+imagePullSecrets: [{ name: mysecret3 }]
+# imagePullSecrets: []
 # nameOverride: ""
 # fullnameOverride: ""
 
