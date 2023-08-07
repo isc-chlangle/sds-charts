@@ -7,13 +7,13 @@ entries:
       intersystems/sds-title: Location Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-07T10:38:55.19249-04:00"
+    created: "2023-08-07T10:54:50.063485-04:00"
     description: A Helm chart for Kubernetes
     digest: 2314d4a089a72fa248e5271da4be1128ec34193b01319ae10e6dc922cdf5115b
     name: sds-location
     type: application
     urls:
-    - sds-location-0.1.0.tgz
+    - https://isc-chlangle.github.io/sds-charts/sds-location-0.1.0.tgz
     version: 0.1.0
   sds-nginx-svc-example:
   - annotations:
@@ -22,13 +22,13 @@ entries:
       intersystems/sds-title: My New Nginx SDS Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-07T10:38:55.19303-04:00"
+    created: "2023-08-07T10:54:50.063774-04:00"
     description: A Helm chart for Kubernetes
     digest: 7559148de7f84eab147536bef0fadcd44290411b4df4dc551bdfa98ab6dd5d41
     name: sds-nginx-svc-example
     type: application
     urls:
-    - sds-nginx-svc-example-0.1.0.tgz
+    - https://isc-chlangle.github.io/sds-charts/sds-nginx-svc-example-0.1.0.tgz
     version: 0.1.0
   sds-optimization:
   - annotations:
@@ -37,12 +37,12 @@ entries:
       intersystems/sds-title: Optimization Service
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-07T10:38:55.193416-04:00"
+    created: "2023-08-07T10:54:50.064065-04:00"
     description: A Helm chart for Kubernetes
     digest: 405f6accf84c94594e26aa1f0a8c123040e4d1ae44482842f0cbffd89ed57513
     name: sds-optimization
     type: application
     urls:
-    - sds-optimization-0.1.0.tgz
+    - https://isc-chlangle.github.io/sds-charts/sds-optimization-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-07T10:38:55.191378-04:00"
+generated: "2023-08-07T10:54:50.063062-04:00"
