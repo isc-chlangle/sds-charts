@@ -47,11 +47,6 @@ spec:
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
-          env:
-          - name: IRIS_USERNAME
-          value: "superuser"
-          - name: IRIS_PASSWORD
-          value: "sys"
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
