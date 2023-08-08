@@ -15,6 +15,7 @@ imagePullSecrets: [{ name: mysecret }]
 # nameOverride: ""
 # fullnameOverride: ""
 
+irisURL: "50.17.14.171"
 irisUsername: "superuser"
 irisPassword: "sys"
 

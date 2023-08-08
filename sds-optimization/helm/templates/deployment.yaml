@@ -52,6 +52,8 @@ spec:
               value: {{ .Values.irisUsername}}
             - name: "IRIS_PASSWORD"
               value: {{ .Values.irisPassword}}
+            - name: "IRIS_URL"
+              value: {{ .Values.irisURL }}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
