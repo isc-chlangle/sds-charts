@@ -49,9 +49,9 @@ spec:
             {{- toYaml .Values.resources | nindent 12 }}
           env:
             - name: "IRIS_USERNAME"
-              value: "superuser"
+              value: {{ .Values.irisUsername}}
             - name: "IRIS_PASSWORD"
-              value: "sys"
+              value: {{ .Values.irisPassword}}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
