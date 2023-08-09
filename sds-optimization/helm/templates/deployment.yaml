@@ -29,9 +29,11 @@ spec:
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       restartPolicy: Never
+      backoffLimit: 0
       containers:
         - name: {{ .Chart.Name }}
           restartPolicy: Never
+          backoffLimit: 0
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: {{ .Values.image.repository }}
