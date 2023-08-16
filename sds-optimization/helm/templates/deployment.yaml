@@ -33,6 +33,7 @@ spec:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: {{ .Values.image.repository }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          restartPolicy: Never
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
