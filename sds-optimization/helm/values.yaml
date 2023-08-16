@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: docker.iscinternal.com/sc-docker/sc-cloud-service/sds-optimization:1.1.1
+  repository: docker.iscinternal.com/sc-docker/sc-cloud-service/sds-optimization
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: 1.1.1
 
 imagePullSecrets: [{ name: mysecret }]
 # imagePullSecrets: []
