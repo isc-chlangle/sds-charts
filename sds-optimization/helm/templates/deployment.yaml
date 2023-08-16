@@ -55,6 +55,7 @@ spec:
             - name: "IRIS_URL"
               value: {{ .Values.irisURL }}
       {{- with .Values.nodeSelector }}
+      restartPolicy: Never
       nodeSelector:
         {{- toYaml . | nindent 8 }}
       {{- end }}
